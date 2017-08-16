@@ -16,7 +16,7 @@ namespace ImageProcessing.Filtering
 
         public double Sigma { get; }
 
-        public GaussianBlur(Size size):this(new SquareMatrix<int>(size.Width), 1.4){} //defaul sigma value =1.4
+        public GaussianBlur(Size size):this(new SquareMatrix<int>(size.Width), 1.4){} //default sigma value =1.4
 
         public GaussianBlur(Size size, double sigma):this(new SquareMatrix<int>(size.Width),sigma){}
 
